@@ -1,6 +1,9 @@
 // @ts-nocheck
 import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import Image from "next/image";
+import cedric from "../public/cedric.png"
 export default function Home() {
   return (
     <div>
@@ -10,14 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="dark:bg-gray-900 px-7 text-white font-gatsa">
+      <main className="px-7 font-gatsa">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl">Cedric Frapier</h1>
             <ul className="flex items-center">
               <li>Mes projets</li>
               <li>
-                <a className="bg-purple-500 text-white px-4 py-2 rounded-md ml-8"
+                <a className="bg-purple-600 text-white px-4 py-2 rounded-md ml-8"
                  href="mailto:cedricfrapier@gmail.com">Contact</a>
               </li>
               <li>
@@ -25,8 +28,25 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          
+          <div className="text-center p-5">
+            <p className="text-2xl py-2">Bienvenue, je suis</p>
+            <h2 className="text-5xl py-2 font-medium">Cédric</h2>
+            <h3 className="text-4xl py-2 text-purple-600">développeur web</h3>
+            <div className="my-10">
+              <a className="text-lg text-center bg-purple-600 text-white p-4 border-none rounded-md hover:scale-110 hover:bg-purple-500 " href="Cedric-Frapier.pdf" download={"CedricFrapier"} >Télécharger mon cv</a>
+            </div>
+            
+            <p className="text-md pt-3 leading-8 text-gray-800">Diplômé d'un Bac + 2 en développement web à la recherche d'un poste en tant que développeur web. Je suis pugnace pour trouver des solutions, curieux d'apprendre avec une réelle volonté de réussir professionnellement. </p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16  text-gray-600">
+            <a href="https://www.linkedin.com/in/cedric-frapier"><AiFillLinkedin className="hover:text-blue-500 hover:scale-125 transition" /></a>
+            <a href="https://github.com/cedricfp"><AiFillGithub className="dark:hover:text-purple-300 hover:scale-125 transition" /></a>
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-purple-800 rounded-full w-[200px] h-[200px] mt-10 overflow-hidden">
+            <Image src={cedric} layout="fill" objectFit="cover"/>
+          </div>
         </section>
+
 
       </main>
     </div>

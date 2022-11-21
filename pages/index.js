@@ -4,6 +4,13 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
 import cedric from "../public/cedric.png"
+import groupomania from "../public/Groupomania.png"
+import kanap from "../public/Kanap.png"
+import laChouetteAgence from "../public/LaChouetteAgence.png"
+import ohMyFood from "../public/OhMyFood.png"
+import piiquante from "../public/Piiquante.png"
+import reservia from "../public/Reservia.png"
+
 export default function Home() {
   return (
     <div>
@@ -36,15 +43,100 @@ export default function Home() {
               <a className="text-lg text-center bg-purple-600 text-white p-4 border-none rounded-md hover:scale-110 hover:bg-purple-500 " href="Cedric-Frapier.pdf" download={"CedricFrapier"} >Télécharger mon cv</a>
             </div>
             
-            <p className="text-md pt-3 leading-8 text-gray-800">Diplômé d'un Bac + 2 en développement web à la recherche d'un poste en tant que développeur web. Je suis pugnace pour trouver des solutions, curieux d'apprendre avec une réelle volonté de réussir professionnellement. </p>
+            <p className="text-md pt-3 leading-8 text-gray-800">Diplômé d'un Bac + 2 en développement web à la recherche d'un poste en tant que développeur web. Je suis<span className="text-purple-600"> pugnace</span> pour trouver des solutions et <span className="text-purple-600">curieux</span>  d'apprendre avec une réelle volonté de réussir professionnellement. </p>
           </div>
           <div className="text-5xl flex justify-center gap-16  text-gray-600">
             <a href="https://www.linkedin.com/in/cedric-frapier"><AiFillLinkedin className="hover:text-blue-500 hover:scale-125 transition" /></a>
             <a href="https://github.com/cedricfp"><AiFillGithub className="dark:hover:text-purple-300 hover:scale-125 transition" /></a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-purple-800 rounded-full w-[200px] h-[200px] mt-10 overflow-hidden">
+          <div className="relative mx-auto bg-gradient-to-b from-purple-600 rounded-full w-[200px] h-[200px] mt-10 overflow-hidden">
             <Image src={cedric} layout="fill" objectFit="cover"/>
           </div>
+
+          <div className="text-center">
+            <h3 className="py-10 text-purple-600 text-3xl text-decoration-line: underline ">Mes compétences</h3> 
+            <div className="text-white flex justify-center flex-wrap gap-7 py-7">
+              <p className="p-3 bg-gray-600 rounded-2xl">HTML</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">CSS</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Sass</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Tailwind CSS</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">SEO</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">GitHub</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Responsive Design</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Node.Js</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">MongoDB</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">MYSQL</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Les Bases de ReactJs</p>
+              <p className="p-3 bg-gray-600 rounded-2xl">Les Bases de Vue.Js</p>
+            </div>
+          </div>
+
+          <div>
+          <h3 className="text-center py-10 text-purple-600 text-3xl text-decoration-line: underline ">Mes projets</h3> 
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_7_09042022">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={groupomania} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">Groupomania</h3>
+              <p>Réseau social d'entreprise, Vue.Js, Express.Js et MySQL </p>
+            </div>
+            </a>
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_6_032022-">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={piiquante} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">Piiquante</h3>
+              <p>API Avis gastronomiques, Node.js, Express et MongoDB </p>
+            </div>
+            </a>
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_5_08112021">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={kanap} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">Kanap</h3>
+              <p>Front-End d'un E-commerce, API rest et gestion d'un panier </p>
+            </div>
+            </a>
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_4_15092021_new">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={laChouetteAgence} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">La Chouette Agence</h3>
+              <p>SEO , Référencement et bonnes pratiques</p>
+            </div>
+            </a>
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_3_10082021">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={ohMyFood} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">Oh My Food</h3>
+              <p>Front-end d'une application de restaurant, Sass </p>
+            </div>
+            </a>
+          </div>
+
+          <div className="pl-40 pr-40">
+            <a href="https://github.com/cedricfp/CedricFrapier_2_09072021">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10">
+              <Image src={reservia} width={200} height={100} className="rounded-xl inline" />
+              <h3 className="text-purple-600 my-6">Reservia</h3>
+              <p>Front-end d'une apllication de rérvation de logement, HTML & CSS </p>
+            </div>
+            </a>
+          </div>
+
+         
+
         </section>
 
 

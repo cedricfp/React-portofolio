@@ -25,7 +25,7 @@ export default function Home() {
       <main className="bg-white px-7 font-gatsa md:px-20 lg:px-12 dark:bg-gray-900 dark:text-white">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl">Cedric Frapier</h1>
+            <h1 className="text-xl sm:hidden ">Cedric Frapier</h1>
             <ul className="flex items-center list-none">
               <li>
                 <a href="projets">

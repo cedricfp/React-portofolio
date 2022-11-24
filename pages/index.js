@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className="text-xl sm:hidden ">Cedric Frapier</h1>
             <ul className="flex items-center list-none">
               <li>
-                <a href="projets">
+                <a href="#Projets">
                 Mes projets</a>
               </li>
               <li>

@@ -64,11 +64,11 @@ export default function Home() {
               </div>
 
               <p className="text-md pt-3 leading-8 text-gray-800 md:text-xl lg:max-w-lg lg:text-left lg:pb-8 dark:text-white">
-                Diplômé d'un Bac + 2 en développement web à la recherche d'un
+                Diplômé d&#39;un Bac + 2 en développement web à la recherche d&#39;un
                 poste en tant que développeur web. Je suis
                 <span className="text-purple-600"> pugnace</span> pour trouver
                 des solutions et{" "}
-                <span className="text-purple-600">curieux</span> d'apprendre
+                <span className="text-purple-600">curieux</span> d&#39;apprendre
                 avec une réelle volonté de réussir professionnellement.{" "}
               </p>
               <div className="text-5xl flex justify-center gap-16 lg:flex lg:justify-start py-1 text-gray-600 dark:text-white ">
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             
             <div className="relative mx-auto bg-gradient-to-b from-purple-600 rounded-full w-[200px] h-[200px] mt-10 overflow-hidden lg:flex lg:justify-start lg:h-80 lg:w-80 xl:fade-in-left">
-              <Image src={cedric} layout="fill" objectFit="cover" />
+              <Image src={cedric} layout="fill" objectFit="cover" alt="image de profil"/>
             </div>
           </div>
           <div className="text-center">
@@ -121,9 +121,10 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="groupomania"
                 />
                 <h3 className="text-purple-600 my-6">Groupomania</h3>
-                <p>Réseau social d'entreprise, Vue.Js, Express.Js et MySQL </p>
+                <p>Réseau social d&#39;entreprise, Vue.Js, Express.Js et MySQL </p>
               </div>
             </a>
           </div>
@@ -136,6 +137,7 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="piiquante"
                 />
                 <h3 className="text-purple-600 my-6">Piiquante</h3>
                 <p className="">API Avis gastronomiques, Node.js, Express et MongoDB </p>
@@ -151,10 +153,11 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="kanap"
                 />
                 <h3 className="text-purple-600 my-6">Kanap</h3>
                 <p>
-                  Front-End d'un E-commerce, API rest et gestion d'un panier{" "}
+                  Front-End d&#39;un E-commerce, API rest et gestion d&#39;un panier{" "}
                 </p>
               </div>
             </a>
@@ -168,6 +171,7 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="laChouetteAgence"
                 />
                 <h3 className="text-purple-600 my-6">La Chouette Agence</h3>
                 <p>SEO , Référencement Google et bonnes pratiques</p>
@@ -183,9 +187,10 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="ohMyFood"
                 />
                 <h3 className="text-purple-600 my-6">Oh My Food</h3>
-                <p>Front-end d'une application de restaurant, Sass </p>
+                <p>Front-end d&#39;une application de restaurant, Sass </p>
               </div>
             </a>
           </div>
@@ -198,10 +203,11 @@ export default function Home() {
                   width={250}
                   height={250}
                   className="inline object-contain"
+                  alt="reservia"
                   />
                 <h3 className="text-purple-600 my-6">Reservia</h3>
                 <p>
-                  Front-end d'une apllication de rérvation de logement, HTML &
+                  Front-end d&#39;une apllication de rérvation de logement, HTML &
                   CSS{" "}
                 </p>
               </div>

@@ -27,7 +27,10 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl">Cedric Frapier</h1>
             <ul className="flex items-center list-none">
-              <li>Mes projets</li>
+              <li>
+                <a href="projets">
+                Mes projets</a>
+              </li>
               <li>
                 <a
                   className="bg-purple-600 text-white px-4 py-2 rounded-md ml-8"
@@ -107,7 +110,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div id="Projets">
             <h3 className="text-center py-10 text-purple-600 text-3xl text-decoration-line: underline ">
               Mes projets
             </h3>

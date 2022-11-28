@@ -210,7 +210,7 @@ export default function Home() {
                   />
                 <h3 className="text-purple-600 my-6">Reservia</h3>
                 <p>
-                  Front-end d&#39;une apllication de rérvation de logement, HTML &
+                  Front-end d&#39;une apllication de réservation de logement, HTML &
                   CSS{" "}
                 </p>
               </div>

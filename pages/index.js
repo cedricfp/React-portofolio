@@ -59,7 +59,7 @@ export default function Home() {
               <div className="my-10 lg:text-left">
                 <a
                   className="text-lg text-center bg-purple-600 text-white p-4 border-none rounded-md hover:scale-110 hover:bg-purple-500 "
-                  href="Cedric-Frapier.pdf"
+                  href="CV_Cedric _Frapier_2itech.pdf"
                   download={"CedricFrapier"}
                 >
                   Télécharger mon cv
@@ -67,8 +67,8 @@ export default function Home() {
               </div>
 
               <p className="text-md pt-3 leading-8 text-gray-800 md:text-xl lg:max-w-lg lg:text-left lg:pb-8 dark:text-white">
-                Diplômé d&#39;un Bac + 2 en développement web à la recherche d&#39;un
-                poste en tant que développeur web. Je suis
+                A la suite d&#39;un Bac + 2 en développement web j&#39;intègre un Bac+3,4 en septembre en tant que Concepteur Développeur d&#39;applications, je suis à la recherche d&#39;un
+                poste en alternance. Je suis
                 <span className="text-purple-600"> pugnace</span> pour trouver
                 des solutions et{" "}
                 <span className="text-purple-600">curieux</span> d&#39;apprendre

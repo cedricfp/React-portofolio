@@ -67,8 +67,7 @@ export default function Home() {
               </div>
 
               <p className="text-md pt-3 leading-8 text-gray-800 md:text-xl lg:max-w-lg lg:text-left lg:pb-8 dark:text-white">
-                A la suite d&#39;un Bac + 2 en développement web j&#39;intègre un Bac+3,4 en septembre en tant que Concepteur Développeur d&#39;Applications en <span className="text-purple-600"> alternance</span>
-                poste en alternance. Je suis
+                A la suite d&#39;un Bac + 2 en développement web j&#39;intègre un Bac+3,4 en septembre en tant que Concepteur Développeur d&#39;Applications en <span className="text-purple-600"> alternance</span>. Je suis
                 <span className="text-purple-600"> pugnace</span> pour trouver
                 des solutions et{" "}
                 <span className="text-purple-600">curieux</span> d&#39;apprendre

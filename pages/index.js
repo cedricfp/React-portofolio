@@ -59,7 +59,7 @@ export default function Home() {
               <div className="my-10 lg:text-left">
                 <a
                   className="text-lg text-center bg-purple-600 text-white p-4 border-none rounded-md hover:scale-110 hover:bg-purple-500 "
-                  href="CV_Cedric _Frapier_2itech.pdf"
+                  href="Frapier_Cedric"
                   download={"CedricFrapier"}
                 >
                   Télécharger mon cv
